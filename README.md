@@ -2,7 +2,7 @@
 Grupo Wolves (Grupo 5 - A1) - Arquitectura de Computadores
 
 ## Integrantes
-Camilo Andrés Sanmiguel Uribe - 2200922
+\n Camilo Andrés Sanmiguel Uribe - 2200922
 Diego Fabián Sepúlveda Durán - 2210063
 Alejandro Santamaría González - 2215731
 Juan David Saavedra González - 2214111
