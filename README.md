@@ -1,5 +1,5 @@
-# Wolves Group
-Grupo Wolves (Grupo 5 - A1) - Arquitectura de Computadores
+# WolPack-Devs
+WolPack-Devs (Grupo 5 - A1) - Arquitectura de Computadores
 https://sites.google.com/view/wolfpack-devs/inicio
 
 ## Integrantes
