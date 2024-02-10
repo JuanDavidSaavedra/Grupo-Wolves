@@ -13,4 +13,3 @@ Alejandro Santamaría González - 2215731
 Juan David Saavedra González - 2214111
 
 Juan Diego Roa Porras - 2210086
-
