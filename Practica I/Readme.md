@@ -144,6 +144,15 @@ Hay muchos factores importantes a tener en cuenta para poder trabajar de manera 
   - El Manejo de la interfaz de Usuario otorgada por Nand2Tetris, ya que aunque se programen correctamente los circuitos (.hdl) se necesita comprobar que funcionan adecuadamente y para eso está el emulador de hardware, los archivos .tst, el emulador de maquina virtual, etc.   
 
 ### ¿Qué otras herramientas similares a Nand2Tetris existen? (De mínimo dos ejemplos)
+Dado que Nand2Tetris es un sitio web centrado en el aprendizaje de las habilidades necesarias para implementar un sistema informático desde cero, donde las lecciones están respaldadas por herramientas como su [Suite](https://www.nand2tetris.org/software) (utilizada en este laboratorio), su libro (mencionado anteriormente) y los laboratorios propuestos en el mismo; pues es un hecho que no es la unica, existen múltiples herramientas en línea que cumplen un propósito similar, el cual es impartir conocimiento tanto teórico como práctico en diversas áreas. Algunos ejemplos incluyen:
+  - [Platzi](https://platzi.com)
+  - [Coursera](https://www.coursera.org)
+  - [SkillsForAll](https://skillsforall.com/)
+  - Libros y Documentos como ["Sistemas Computacionales"](https://sistemascomputacionales.readthedocs.io/_/downloads/es/stable/pdf/)
+  - [Github](https://github.com/jamesleeat/TeachYourselfCS-ES/blob/main/TeachYourselfCS-ES.md)
+  - etc
+
+Estos son solo unos pocos ejemplos de herramientas de aprendizaje, que ofrecen contenido gratuito y/o de pago. Estas herramientas están diseñadas para no solo proporcionar conocimiento teórico a los estudiantes, sino también para permitirles realizar ejercicios prácticos que desafíen su ingenio y fomenten su crecimiento en el ámbito profesional. Además, no se limitan únicamente a la ciencia detrás del funcionamiento de las computadoras, sino que también ofrecen contenido sobre diversos temas como ciberseguridad, programación, economía y más.
 
 ## Referencias
 Fuentes consultadas al realizar esta practica:
