@@ -50,6 +50,8 @@ Nuevamente, la compuerta Mux que es un multiplexor con 2 entradas a y b (p0 y p1
 
 ![Diagrama Compuerta Mux](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/128198245/1c9f857a-76ef-4b73-b6a9-e3c9ebe86e9f)
 
+***Nota:*** En nuestra implementación se utilizo una compuerta Xor, esto se debe a que el comportamiento del multiplexor asegura alguna de las siguientes combinaciones: xorEntry1 = 1 y xorEntry2 = 0 o viceversa, en otras palabras ambas salidas de las **And** *nunca* serán 1 al mismo tiempo, y por ende el comportamiento de la Xor y la Or en este caso especifico es virtualmente el mismo.
+
 ### Compuerta DMux:
 En el caso de la compuerta Dmux, la cual es un demultiplexor de 1 entrada (in), una entrada de seleccion sel y 2 salidas puede ser implementado de la siguiente manera:
 
