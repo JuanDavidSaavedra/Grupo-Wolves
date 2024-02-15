@@ -1,5 +1,5 @@
 # Descripcion de la 2da Práctica
-La segunda práctica tiene como objetivo desarrollar e implementar el segundo y el tercer proyecto propuesto por nand2tetris.org. Estos proyectos están centrados en la aritmetica booleana y la lógica secuencial. Al completarlos, se habrá implementado:
+La segunda práctica tiene como objetivo desarrollar e implementar el segundo y el tercer proyecto propuesto por nand2tetris.org. Estos proyectos están centrados en la lógica aritmetica y la lógica secuencial. Al completarlos, se habrá implementado:
  - La ALU (La unidad Aritmetica Logica).
  - Flip flops.
  - Bits.
@@ -8,7 +8,7 @@ La segunda práctica tiene como objetivo desarrollar e implementar el segundo y 
  - El "PC".
  - Entre otros.
 
-## Segundo Proyecto - Aritmetica Booleana
+## Segundo Proyecto - Lógica Aritmetica
 Nand2tetris.org propone este proyecto afirmando que la parte central de la arquitectura de un computador es la CPU. A su vez, la pieza computacional fundamental para la CPU es la ALU (Unidad Aritmética Lógica). Por lo tanto, este proyecto propuso implementar todos los chips necesarios antes de la ALU para, finalmente, llevar a cabo su implementación.
 
 ### HalfAdder (Medio sumador):
