@@ -57,7 +57,7 @@ Un posible diagrama grafico de la ALU podria ser (Tomado de [Tea Leaves](https:/
 ## Tercer Proyecto - Memoria:
 
 ## ¿Cuales son las principales Diferencias entre logica Aritmetica y Logica Secuencial?
-### Logica Aritmetica
+### Logica Aritmética
 * Depende unicamente de las entradas
 * El proceso corre en un solo ciclo o paso
 * Generalmente no presentan capacidad de memoria o memorizacion
@@ -68,7 +68,7 @@ Un posible diagrama grafico de la ALU podria ser (Tomado de [Tea Leaves](https:/
 * Presentan capacidad de memorizacion
 
 ## ¿Qué tipo de unidades aritmético lógicas existen?
-Más conocidas como ALU (Unidad aritmetico logica / Arithmetic Logic Unit ) suelen ser chips con la capacidad de realizar operaciones aritmeticas de numeros enteros (como complemento 2 a 2 o BCD) pero tambien existen los FPU (Unidad de Punto Flotante).
+Más conocidas como ALU (Unidad aritmético logica / Arithmetic Logic Unit ) suelen ser chips con la capacidad de realizar operaciones aritmeticas de numeros enteros (como complemento 2 a 2 o BCD) pero tambien existen los FPU (Unidad de Punto Flotante).
 Las unidades aritmetico logicas se pueden clasificar tambien por tipo de dato:
 * ALU de enteros: Opera con números enteros binarios.
 * ALU de coma flotante (Punto flotante): Opera con números reales en formato de coma flotante.
