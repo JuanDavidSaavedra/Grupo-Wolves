@@ -53,12 +53,12 @@ Un posible diagrama grafico de la ALU podria ser (Tomado de [Tea Leaves](https:/
 ## Tercer Proyecto - Memoria:
 
 ## ¿Cuales son las principales Diferencias entre logica Aritmetica y Logica Secuencial?
-# Logica Aritmetica
+### Logica Aritmetica
 * Depende unicamente de las entradas
 * El proceso corre en un solo ciclo o paso
 * Generalmente no presentan capacidad de memoria o memorizacion
 
-# Logica Secuencial
+### Logica Secuencial
 * Depende de las entradas y de los estados anteriores o una variable t
 * El proceso de calculo corre en multiples pasos
 * Presentan capacidad de memorizacion
