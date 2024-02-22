@@ -13,11 +13,15 @@ Nand2tetris.org propone este proyecto afirmando que la parte central de la arqui
 
 ### HalfAdder (Medio sumador):
 ![Half Adder](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/128198245/1d36ba44-a89f-4fa0-b7a7-2d6433af297d)
+![Half-adder-circuit-diagram](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/102627981/68baf104-6c44-4cc9-948c-b95979919257)
+
 
 Al observar su tabla de verdad podemos observar que solo son necesarias 2 compuertas para su implementacion, la **Xor** será la encargada de llevar a cabo la suma y generar la respectiva salida *sum*, mientras que la **And** será la que calculará si se da un acarreo o no, manejando la salida *carry*.
 
 ### FullAdder (Sumador Completo):
 ![Full Adder](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/128198245/d2961f5b-b77d-4ee6-b5b8-306a7b7fc5a4)
+![Full-adder-circuit-diagram](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/102627981/03160838-dc13-4952-8295-00c1744c5095)
+
 
 En el caso del sumador completo, se puede aplicar la propiedad *asociativa* de la suma: La cual propone que (a + b) + c = a + (b + c). Por ende se puede hacer la primera adicion con un medio sumador, su resultado almacenado en la variable *auxSum* será sumado nuevamente (usando otro medio sumador) a la entrada c restante y de ahi se obtiene el resultado final de la suma, sin embargo cada medio sumador utilizado tiene su propio acarreo (auxCarry1 y auxCarry2 respectivamente), por lo que usando una compuerta Xor, siempre que estos 2 sean diferentes la salida Out será igual a 1, lo que significa que llevará un acarreo.
 
