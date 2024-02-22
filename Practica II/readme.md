@@ -64,6 +64,11 @@ Un posible diagrama grafico de la ALU podria ser (Tomado de [Tea Leaves](https:/
 * Presentan capacidad de memorizacion
 
 ## ¿Qué tipo de unidades aritmético lógicas existen?
+Más conocidas como ALU (Unidad aritmetico logica / Arithmetic Logic Unit ) suelen ser chips con la capacidad de realizar operaciones aritmeticas de numeros enteros (como complemento 2 a 2 o BCD) pero tambien existen los FPU (Unidad de Punto Flotante).
+Las unidades aritmetico logicas se pueden clasificar tambien por tipo de dato:
+* ALU de enteros: Opera con números enteros binarios.
+* ALU de coma flotante (Punto flotante): Opera con números reales en formato de coma flotante.
+* ALU vectoriales: Opera con vectores de datos, permitiendo realizar operaciones simultáneas en varios datos.
 
 ## Referencias
 Fuentes consultadas al realizar esta practica:
