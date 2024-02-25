@@ -55,6 +55,24 @@ Un posible diagrama grafico de la ALU podria ser (Tomado de [Tea Leaves](https:/
 
 
 ## Tercer Proyecto - Memoria:
+Para la segunda parte de la practica II, se implementaron los siguientes CHIPS:
+-DIFF
+-Bit
+-Register
+-RAM8
+-RAM64
+-RAM512
+-RAM4K
+-RAM16K
+-PC
+
+La memoria principal de la computadora, también conocida como memoria de acceso aleatorio o RAM, consiste en una secuencia direccionable de registros, cada uno diseñado para almacenar un valor de n bits. En el contexto de este proyecto, se abordará gradualmente la construcción de una unidad RAM. Esto implica dos aspectos principales: 
+1)emplear la lógica de puertas para mantener los bits de manera persistente a lo largo del tiempo.
+2) utilizar la lógica de puertas para acceder el registro de memoria específico en el que se desea operar. 
+
+Los únicos componentes disponibles para la construcción son aquellos listados en los Proyectos 1 y 2, así como los chips que se desarrollarán progresivamente en este proyecto. Se considera que el chip DFF es primitivo, por lo que no es necesario construirlo nuevamente.
+
+
 
 ## ¿Cuales son las principales Diferencias entre logica Aritmetica y Logica Secuencial?
 ### Logica Aritmética
