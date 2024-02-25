@@ -74,8 +74,10 @@ La memoria principal de la computadora, también conocida como memoria de acceso
 Los únicos componentes disponibles para la construcción son aquellos listados en los Proyectos 1 y 2, así como los chips que se desarrollarán progresivamente en este proyecto. Se considera que el chip DFF es primitivo, por lo que no es necesario construirlo nuevamente.
 
 ## Bit
+
 ![image](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/159449419/315f2ad0-aa55-405a-a614-dc1736a76bf3)
-En la especificación presentada, se observan dos entradas: una de carga y una de salida. Por consiguiente, se procede a examinar el diagrama correspondiente. Se ha añadido otra entrada, la cual constituye el reloj implícito en cualquier elemento relacionado con la memoria. En consecuencia, se opta por considerar un flip-flop d en este punto, el cual puede interpretarse como una entrada para el reloj. Se deja ubicado allí para su posterior consideración, con la idea de enrutarse la entrada de bit al flip-flop d. Sin embargo, surge un inconveniente con esta estrategia: la especificación del flip-flop d establece que si la carga es 1, la salida en el tiempo más 1 es igual a la entrada en ese mismo tiempo; de lo contrario, la salida permanece sin cambios. Este comportamiento implica que el flip-flop d presenta un comportamiento de retraso por un ciclo, tal como se describió en la conferencia. Sin embargo, este comportamiento no alterará el resultado deseado.
+
+En la especificación presentada, se observan dos entradas: una de carga y una de salida. Por consiguiente, se procede a examinar el diagrama correspondiente. Se ha añadido otra entrada, la cual constituye el reloj implícito en cualquier elemento relacionado con la memoria. En consecuencia, se opta por considerar un flip-flop D en este punto, el cual puede interpretarse como una entrada para el reloj. Se deja ubicado allí para su posterior consideración, con la idea de enrutarse la entrada de bit al flip-flop D. Sin embargo, surge un inconveniente con esta estrategia: la especificación del flip-flop D establece que si la carga es 1, la salida en el tiempo más 1 es igual a la entrada en ese mismo tiempo; de lo contrario, la salida permanece sin cambios. Este comportamiento implica que el flip-flop D presenta un comportamiento de retraso por un ciclo, tal como se describió en la conferencia. Sin embargo, este comportamiento no alterará el resultado deseado.
 
 
 
@@ -104,3 +106,4 @@ Fuentes consultadas al realizar esta practica:
 - Guia general de la implementacion del 2do Proyecto [Tea Leaves](https://youtu.be/Wl53tFc5WYQ?list=PLu6SHDdOToSdD4-c9nZX2Qu3ZXnNFocOH)
 - Diapositivas teoricas del [2do Proyecto](https://drive.google.com/file/d/1ie9s3GjM2TrvL7PrEZJ00gEwezgNLOBm/view)
 - Diapositivas teoricas del [3er Proyecto](https://drive.google.com/file/d/1boFooygPrxMX-AxzogFYIZ-8QsZiDz96/view)
+-Guia general de la implenmentacion del tercer proyecto: https://drive.google.com/file/d/1ArUW8mkh4Kax-2TXGRpjPWuHf70u6_TJ/view 
