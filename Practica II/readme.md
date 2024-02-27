@@ -157,7 +157,7 @@ La estructura y el funcionamiento lógico son similares en ambos niveles: tanto 
 * El proceso de calculo corre en multiples pasos
 * Presentan capacidad de memorizacion
 
-## ¿Qué tipo de unidades aritmético lógicas existen?
+## BONUS: ¿Qué tipo de unidades aritmético lógicas existen?
 Más conocidas como ALU (Unidad aritmético logica / Arithmetic Logic Unit ) suelen ser chips con la capacidad de realizar operaciones aritmeticas de numeros enteros (como complemento 2 a 2 o BCD) pero tambien existen los FPU (Unidad de Punto Flotante).
 Las unidades aritmetico logicas se pueden clasificar tambien por tipo de dato:
 * ALU de enteros: Opera con números enteros binarios.
