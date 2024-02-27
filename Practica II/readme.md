@@ -107,7 +107,7 @@ En el se nos da una explicación algorítmica del funcionamiento del chip, se pu
 
 Las entradas de selección de los multiplexores son fáciles de observar, pues hay una variable de entrada que corresponde a cada multiplexor, sin embargo, lo que complicó la implementación de esta compuerta fue el discernir que entradas debían ir en cada multiplexor, sin embargo, guiándonos del tutorial de Tea Leaves, se llego a esta conclusión: Donde el registrador recibe como entrada la salida del multiplexor encargado del reseteo (pues es la función de mayor prioridad en el if), el incremento se le aplica a la salida de ese registrador tal como sugiere el algoritmo (out(t+1) = out(t) + 1), ahora la entrada del multiplexor de reseteo es la salida del multiplexor de carga esto tiene sentido ya que es el siguiente en la prioridad del if anidado. De igual manera la entrada del multiplexor de carga es la salida del multiplexor del incremento que es el siguiente en la lista de prioridad de los ifs y finalmente la entrada del mux de incremento es la salida del registrador, pues este es el valor que se debe incrementar según el algoritmo.
 
-## Ram8
+## RAM8
 Respecto a la RAM en general, las diapositivas del proyecto 3 nos presentan este diagrama parcial:
 
 ![image](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/128198245/dd635f33-01a0-4c98-a2e9-3cdda6be953c)
@@ -118,7 +118,7 @@ En el ya se encuentran todos los componentes necesarios para implementar una RAM
 
 La solución es bastante sencilla por medio de la entrada address de tres bits, el demultiplexor sabe a que dirección de memoria queremos acceder, y le va a enviar el valor de la carga (la entrada load) a ese registrador especifico, luego cada uno de los 8 registradores de 16 bits van a almacenar la entrada in y dependiendo del demultiplexor y del valor de la entrada load, sabrá cual dirección debe cargar la nueva entrada, mientras que el resto la mantienen, finalmente con el multiplexor final se devolverá la respectiva salida usando la misma variable address para acceder a la dirección de memoria que nos interesa.
 
-## Ram64
+## RAM64
 De aquí en adelante, hasta terminar el tercer proyecto, se va a reutilizar la estructura previamente utilizada, solo que utilizando la memoria RAM implementada anteriormente, en el caso de la memoria RAM64, simplemente se van a usar 8 memorias RAM8 resultando el .hdl de la siguiente manera:
 
 ![image](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/128198245/17e57f99-e6b9-4b21-b6de-f783693a8c84)
