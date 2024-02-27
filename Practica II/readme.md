@@ -114,7 +114,7 @@ Respecto a la RAM en general, las diapositivas del proyecto 3 nos presentan este
 
 En el ya se encuentran todos los componentes necesarios para implementar una RAM de cualquier valor, lo único que debe hacer es estudiante es hacer las conexiones correctas, para ello nuevamente seguimos la guía propuesta por Tea Leaves y se llego a la siguiente solución:
 
-image](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/128198245/288500ae-4780-477b-b209-eb90d6ae6daf)
+![image](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/128198245/288500ae-4780-477b-b209-eb90d6ae6daf)
 
 La solución es bastante sencilla por medio de la entrada address de tres bits, el demultiplexor sabe a que dirección de memoria queremos acceder, y le va a enviar el valor de la carga (la entrada load) a ese registrador especifico, luego cada uno de los 8 registradores de 16 bits van a almacenar la entrada in y dependiendo del demultiplexor y del valor de la entrada load, sabrá cual dirección debe cargar la nueva entrada, mientras que el resto la mantienen, finalmente con el multiplexor final se devolverá la respectiva salida usando la misma variable address para acceder a la dirección de memoria que nos interesa.
 
