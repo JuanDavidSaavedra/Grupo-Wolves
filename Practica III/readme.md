@@ -1,5 +1,5 @@
 # Descripcion de la 3era Práctica
-La tercera práctica tiene como objetivo desarrollar e implementar el cuarto y el quinto proyecto propuesto por nand2tetris.org. Estos proyectos están centrados en ejercicios sencillos en lenguaje de ensamblador y la arquitectura de un computador.
+La tercera práctica tiene como objetivo desarrollar e implementar el cuarto y el quinto proyecto propuesto por nand2tetris.org. Estos proyectos están centrados en ejercicios sencillos en lenguaje de ensamblador y avanzar aun mas en la implementación de la arquitectura completa de un computador.
 
 ## Cuarto Proyecto - Lenguaje de Maquina
 El objetivo de este proyecto es el de obtener una experiencia en programación de bajo nivel en el lenguaje de máquina, y el de familiarizarse con la plataforma de computadora Hack. En este proyecto, se buscó que los estudiantes se familiarizaran con el lenguaje de ensamblador **(Assembly)** y de que obtuvieran nociones básicas a la hora de traducir de un lenguaje simbólico al lenguaje de la máquina. También se buscó que apreciaran visualmente cómo se ejecuta el código binario nativo en la plataforma de hardware otorgada por Nand2Tetris. Todo esto se logró al escribir y probar dos programas de bajo nivel, los cuales fueron los siguientes:
