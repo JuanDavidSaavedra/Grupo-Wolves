@@ -231,6 +231,13 @@ Donde solamente hay una entrada llamada **reset** que sirve para reiniciar la ej
 ---
 
 ## ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
+Resulta esencial en 5 puntos principales:
+- Control de bajo nivel, permitiendo un control preciso sobre el hardware usado fundamental para el diseño de sistemas y la gestion optima de recursos.
+- Optimización de rendimiento ya que al trabajar a bajo nivel el "facil" mejorar el rendimiento de los programas.
+- Interfaz con el hardware puesto que el lenguaje de maquina se entiende directamente con la CPU.
+- Compatibilidad y portabilidad siendo que el lenguaje de maquina puede mantenerse constante (relativamente) entre distintos hardware, pudiendo ejecutar las mismas instrucciones en diferente tipos de arquitectura de CPU (claramente con sus respectivas restricciones de espeficicación).
+- Base para otros lenguajes de programación como C++, C, Python que finalmente se traducen a lenguaje de maquina para ser entendidos y ejecutados por la CPU. Se vuelve importante entender como funciona el lenaguaje de maquina para entender el funcionamiento de los diferentes lenguajes de programación.
+
 ## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? 
 ## BONUS-1: Como informático o computista: ¿La arquitectura computacional o la arquitectura del sistema no tiene en cuenta igualmente la arquitectura de software?
 ## BONUS-2: Investigación - Pentium Bug 80x86 (Pentium Chronicles)
