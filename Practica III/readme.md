@@ -118,6 +118,7 @@ CHIP Memory {
 Lo importante de la implementación de este chip, son las condiciones que este utiliza para discernir a cual respectiva dirección de memoria se esta accediendo, si a la RAM, a la de la pantalla o a la del teclado. El rango para acceder a la memoria de la pantalla (Screen Memory) es de 0x4000-0x5FFF. La dirección 0x6000 es el mapa de la memoria del teclado y cualquier valor superior a ese es invalido.
 
 0x4000 = 0000 0000 0000 0000 0100 0000 0000 0000
+
 0x5FFF = 0000 0000 0000 0000 0101 1111 1111 1111
 
 Al analizar los limites de esas condiciones nos damos de cuenta de que los bits mas importantes son el bit[13] y el bit[14] de la dirección (address) y que son efectivamente estos bits los que usamos en el DMux4Way para discernir si accedemos a la RAM, a la pantalla o al teclado. Luego, para el caso de la RAM, por medio de una RAM16k usando el resultado de una OR (denominado ramIn) y los 14 bits de la dirección (address[0..13]) obtenemos una salida ramOut. De igual manera en el caso de que la dirección se oriente a la memoria de la pantalla, por medio de un chip ya implementado por Nand2tetris obtenemos la respectiva salida ScreenOut. Finalmente, para el caso de que la dirección corresponda a la del teclado, por medio del chip Keyboard (también implementado por nand2tetris) recibimos su salida tecOut. Así, habiendo obtenido los datos para cualquier dirección posible, usando un multiplexor con la misma entrada de selección address[13..14] se devuelve la salida de la memoria definida como out.
