@@ -59,11 +59,11 @@ CHIP CPU {
     zr=zerop, ng=negp);
 
     //Logica del registrador A
-    Mux16(a=instruction, b=aluOut, sel=cType, out=aMuxOut);
-    Mux16(a=aRegOut, b=inM, sel=cA0rM, out=yIn);
+    Mux16(a=instruction, b=aluOut, sel=cType, out=aMuxOut); //mux para decidir la entrada del registrador A
+    Mux16(a=aRegOut, b=inM, sel=cA0rM, out=yIn); //mux para decidir la entrada y de la ALU
     //Cargando el Registrador A
     Not(in=cType, out=notCType);
-    Or(a=notCType, b=cDestA, out=loadA);
+    Or(a=notCType, b=cDestA, out=loadA); //Or para decidir la entrada de carga loadA
     ARegister(in=aMuxOut, load=loadA, out=aRegOut, out[0..14]=addressM); 
 
     //Logica del registrador D
