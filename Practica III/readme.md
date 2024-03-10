@@ -239,7 +239,7 @@ Resulta esencial en 5 puntos principales:
 - Base para otros lenguajes de programación como C++, C, Python que finalmente se traducen a lenguaje de maquina para ser entendidos y ejecutados por la CPU. Se vuelve importante entender como funciona el lenaguaje de maquina para entender el funcionamiento de los diferentes lenguajes de programación.
 
 ## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema?
-Las prinicipal diferencia que vemos entre arquitectura computacional, arquitectura de software y arquitectura del sistema es que, mientras que la arquitectura computacional se centra en el hardware, la arquitectura de software se centra en el diseño y organización del software, y la arquitectura del sistema abarca tanto el hardware como el software, considerando la interacción entre ellos para lograr los objetivos del sistema.
+La principal diferencia que vemos entre arquitectura computacional, arquitectura de software y arquitectura del sistema es que, mientras que la arquitectura computacional se centra en el hardware, la arquitectura de software se centra en el diseño y organización del software, y la arquitectura del sistema abarca tanto el hardware como el software, considerando la interacción entre ellos para lograr los objetivos del sistema.
 
 Otras diferencias incluyen:
 
