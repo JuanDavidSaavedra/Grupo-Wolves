@@ -239,6 +239,8 @@ Resulta esencial en 5 puntos principales:
 - Base para otros lenguajes de programación como C++, C, Python que finalmente se traducen a lenguaje de maquina para ser entendidos y ejecutados por la CPU. Se vuelve importante entender como funciona el lenaguaje de maquina para entender el funcionamiento de los diferentes lenguajes de programación.
 
 ## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? 
+
+
 ## BONUS-1: Como informático o computista: ¿La arquitectura computacional o la arquitectura del sistema no tiene en cuenta igualmente la arquitectura de software?
 ## BONUS-2: Investigación - Pentium Bug 80x86 (Pentium Chronicles)
 
