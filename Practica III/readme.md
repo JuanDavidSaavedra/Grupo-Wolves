@@ -238,7 +238,29 @@ Resulta esencial en 5 puntos principales:
 - Compatibilidad y portabilidad siendo que el lenguaje de maquina puede mantenerse constante (relativamente) entre distintos hardware, pudiendo ejecutar las mismas instrucciones en diferente tipos de arquitectura de CPU (claramente con sus respectivas restricciones de espeficicación).
 - Base para otros lenguajes de programación como C++, C, Python que finalmente se traducen a lenguaje de maquina para ser entendidos y ejecutados por la CPU. Se vuelve importante entender como funciona el lenaguaje de maquina para entender el funcionamiento de los diferentes lenguajes de programación.
 
-## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? 
+## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema?
+Las prinicipal diferencia que vemos entre arquitectura computacional, arquitectura de software y arquitectura del sistema es que, mientras que la arquitectura computacional se centra en el hardware, la arquitectura de software se centra en el diseño y organización del software, y la arquitectura del sistema abarca tanto el hardware como el software, considerando la interacción entre ellos para lograr los objetivos del sistema.
+
+Otras diferencias incluyen:
+
+1. Arquitectura Computacional:
+
+- Se refiere a la estructura física y lógica de un sistema informático, incluyendo componentes como la unidad central de procesamiento (CPU), memoria, dispositivos de entrada/salida, buses de datos, etc.
+- Se centra en cómo los diferentes componentes de hardware se interconectan y trabajan juntos para ejecutar programas y procesar datos.
+- Ejemplos de conceptos en arquitectura computacional incluyen la arquitectura von Neumann, arquitectura RISC (Reduced Instruction Set Computing), arquitectura CISC (Complex Instruction Set Computing), entre otros.
+
+2. Arquitectura de Software:
+
+- Se refiere a la estructura y organización de los componentes de software dentro de un sistema informático.
+- Incluye decisiones sobre el diseño de software, patrones de diseño, módulos, interfaces, y la interacción entre ellos para cumplir con los requisitos funcionales y no funcionales del sistema.
+- Enfoques comunes en arquitectura de software incluyen la arquitectura de tres capas, arquitectura orientada a servicios (SOA), arquitectura de microservicios, entre otros.
+
+3. Arquitectura del Sistema:
+
+- Se refiere a la estructura global de un sistema informático, considerando tanto los aspectos de hardware como de software.
+- Engloba la interacción entre los componentes de hardware y software para satisfacer los requisitos del sistema en su conjunto.
+- Incluye decisiones sobre la distribución de recursos, gestión de memoria, comunicación entre procesos, manejo de errores, tolerancia a fallos, entre otros aspectos.
+- La arquitectura del sistema se ocupa de la organización general del sistema y cómo sus diferentes partes interactúan para lograr los objetivos del sistema.
 
 
 ## BONUS-1: Como informático o computista: ¿La arquitectura computacional o la arquitectura del sistema no tiene en cuenta igualmente la arquitectura de software?
