@@ -264,7 +264,28 @@ Otras diferencias incluyen:
 
 
 ## BONUS-1: Como informático o computista: ¿La arquitectura computacional o la arquitectura del sistema no tiene en cuenta igualmente la arquitectura de software?
+
 ## BONUS-2: Investigación - Pentium Bug 80x86 (Pentium Chronicles)
+Tambien conocido como el error FDIV o Pentium Bug 80x86 (FDIV es la instruccion de division de coma flotante en los procesadores x86)
+Es un error de hardware que afecta a la FPU (Unidad de punto flotante) de la serie Pentium de los procesadores de INTEL, este error ocurria en el calculo del resultado de una division de ciertos numeros. El bug fue descubierto en octubre de 1994 por el profesor Thomas Nicely quien descubrio que estas operaciones de coma flotante devolvian un resultado erroneo por exceso.
+
+![image](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/159449093/058b7a2d-71d8-4b3e-b29d-c72b461c149e)
+
+
+El error podia ser comprobado en la misma calculadora de windows o en cualquier hoja de calculo que pudiera ejecutar lo siguiente.
+```
+x = 8391667
+ y = 1572863
+ 
+ IF x - (x / y) * y <> 0 THEN 
+     PRINT "Su procesador tiene el error del Pentium" 
+ ELSE
+     PRINT "Su procesador no tiene el error del Pentium" 
+ END IF
+```
+De este modo se podia comprobar la existencia de este error de la FPU de Intel.
+A pesar de que este error era bien conocido, intel no sufrio muchas repercuciones por este fallo debido a que este error no representaba un peligro para el funcionamiento de los dispositivos y no habia casos registrados de personas que hubieran sido seriamente afectadas por este error, por lo tanto, intel siempre estuvo a la defensiva negando la necesidad de reemplazar sus procesadores o el algoritmo que utilizaba para el calculo de estas operaciones (El cual tambien habia influido bastante en el nacimiento de este bug).
+
 
 # Referencias:
 - El readme fue realizado siguiendo lo propuesto en [Docs.github.com](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
