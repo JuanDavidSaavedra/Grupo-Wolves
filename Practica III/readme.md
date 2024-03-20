@@ -231,9 +231,61 @@ Donde solamente hay una entrada llamada **reset** que sirve para reiniciar la ej
 ---
 
 ## ¿Por qué el lenguaje de máquina es importante para definir la arquitectura computacional?
-## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema? 
+Resulta esencial en 5 puntos principales:
+- Control de bajo nivel, permitiendo un control preciso sobre el hardware usado fundamental para el diseño de sistemas y la gestion optima de recursos.
+- Optimización de rendimiento ya que al trabajar a bajo nivel el "facil" mejorar el rendimiento de los programas.
+- Interfaz con el hardware puesto que el lenguaje de maquina se entiende directamente con la CPU.
+- Compatibilidad y portabilidad siendo que el lenguaje de maquina puede mantenerse constante (relativamente) entre distintos hardware, pudiendo ejecutar las mismas instrucciones en diferente tipos de arquitectura de CPU (claramente con sus respectivas restricciones de espeficicación).
+- Base para otros lenguajes de programación como C++, C, Python que finalmente se traducen a lenguaje de maquina para ser entendidos y ejecutados por la CPU. Se vuelve importante entender como funciona el lenaguaje de maquina para entender el funcionamiento de los diferentes lenguajes de programación.
+
+## ¿Qué diferencia ven entre arquitectura computacional, arquitectura de software y arquitectura del sistema?
+La principal diferencia que vemos entre arquitectura computacional, arquitectura de software y arquitectura del sistema es que, mientras que la arquitectura computacional se centra en el hardware, la arquitectura de software se centra en el diseño y organización del software, y la arquitectura del sistema abarca tanto el hardware como el software, considerando la interacción entre ellos para lograr los objetivos del sistema.
+
+Otras diferencias incluyen:
+
+1. Arquitectura Computacional:
+
+- Se refiere a la estructura física y lógica de un sistema informático, incluyendo componentes como la unidad central de procesamiento (CPU), memoria, dispositivos de entrada/salida, buses de datos, etc.
+- Se centra en cómo los diferentes componentes de hardware se interconectan y trabajan juntos para ejecutar programas y procesar datos.
+- Ejemplos de conceptos en arquitectura computacional incluyen la arquitectura von Neumann, arquitectura RISC (Reduced Instruction Set Computing), arquitectura CISC (Complex Instruction Set Computing), entre otros.
+
+2. Arquitectura de Software:
+
+- Se refiere a la estructura y organización de los componentes de software dentro de un sistema informático.
+- Incluye decisiones sobre el diseño de software, patrones de diseño, módulos, interfaces, y la interacción entre ellos para cumplir con los requisitos funcionales y no funcionales del sistema.
+- Enfoques comunes en arquitectura de software incluyen la arquitectura de tres capas, arquitectura orientada a servicios (SOA), arquitectura de microservicios, entre otros.
+
+3. Arquitectura del Sistema:
+
+- Se refiere a la estructura global de un sistema informático, considerando tanto los aspectos de hardware como de software.
+- Engloba la interacción entre los componentes de hardware y software para satisfacer los requisitos del sistema en su conjunto.
+- Incluye decisiones sobre la distribución de recursos, gestión de memoria, comunicación entre procesos, manejo de errores, tolerancia a fallos, entre otros aspectos.
+- La arquitectura del sistema se ocupa de la organización general del sistema y cómo sus diferentes partes interactúan para lograr los objetivos del sistema.
+
+
 ## BONUS-1: Como informático o computista: ¿La arquitectura computacional o la arquitectura del sistema no tiene en cuenta igualmente la arquitectura de software?
+
 ## BONUS-2: Investigación - Pentium Bug 80x86 (Pentium Chronicles)
+Tambien conocido como el error FDIV o Pentium Bug 80x86 (FDIV es la instruccion de division de coma flotante en los procesadores x86)
+Es un error de hardware que afecta a la FPU (Unidad de punto flotante) de la serie Pentium de los procesadores de INTEL, este error ocurria en el calculo del resultado de una division de ciertos numeros. El bug fue descubierto en octubre de 1994 por el profesor Thomas Nicely quien descubrio que estas operaciones de coma flotante devolvian un resultado erroneo por exceso.
+
+![image](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/159449093/058b7a2d-71d8-4b3e-b29d-c72b461c149e)
+
+
+El error podia ser comprobado en la misma calculadora de windows o en cualquier hoja de calculo que pudiera ejecutar lo siguiente.
+```
+x = 8391667
+ y = 1572863
+ 
+ IF x - (x / y) * y <> 0 THEN 
+     PRINT "Su procesador tiene el error del Pentium" 
+ ELSE
+     PRINT "Su procesador no tiene el error del Pentium" 
+ END IF
+```
+De este modo se podia comprobar la existencia de este error de la FPU de Intel.
+A pesar de que este error era bien conocido, intel no sufrio muchas repercuciones por este fallo debido a que este error no representaba un peligro para el funcionamiento de los dispositivos y no habia casos registrados de personas que hubieran sido seriamente afectadas por este error, por lo tanto, intel siempre estuvo a la defensiva negando la necesidad de reemplazar sus procesadores o el algoritmo que utilizaba para el calculo de estas operaciones (El cual tambien habia influido bastante en el nacimiento de este bug).
+
 
 # Referencias:
 - El readme fue realizado siguiendo lo propuesto en [Docs.github.com](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
