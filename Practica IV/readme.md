@@ -59,8 +59,9 @@ Luego de descargarse los respectivos archivos se comprueba que la traducción se
 Como se muestra en el mensaje: "File compilation & comparison succeeded" La traducción fue completamente equivalente. Esta verificación se realizó para cada uno de los 7 programas entregados por Nand2Tetris para el proyecto #6.
 
 ## Teniendo en cuenta las características del ensamblador, ¿Cuál es la principal limitante que observan?
+La principal limitante es su simplicidad. Como pudimos observar, cumple con su función básica de traducir código escrito en lenguaje ensamblador a código máquina. Sin embargo, no contiene todas las características que se encuentran en ensambladores más complejos.
 ## BONUS: ¿Por qué es tan importante el ensamblador?
-
+El ensamblador cumple una función crucial al actuar como un puente entre el lenguaje de programación de alto nivel y el código máquina que puede ejecutar directamente la computadora. Sin un ensamblador, la mayoría de los programadores se encontrarían obligados a escribir código en lenguaje máquina, lo que sería extremadamente complicado y propenso a errores. Por lo tanto, el ensamblador simplifica significativamente el proceso de desarrollo de software.
 # Referencias:
 - El readme fue realizado siguiendo lo propuesto en [Docs.github.com](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
 - Arquitectura Propuesta [MakkuZjAileron](https://youtu.be/0y8JPx0ZakY)
