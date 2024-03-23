@@ -59,7 +59,9 @@ Luego de descargarse los respectivos archivos se comprueba que la traducción se
 Como se muestra en el mensaje: "File compilation & comparison succeeded" La traducción fue completamente equivalente. Esta verificación se realizó para cada uno de los 7 programas entregados por Nand2Tetris para el proyecto #6.
 
 ## Teniendo en cuenta las características del ensamblador, ¿Cuál es la principal limitante que observan?
-La principal limitante es su simplicidad. Como pudimos observar, cumple con su función básica de traducir código escrito en lenguaje ensamblador a código máquina. Sin embargo, no contiene todas las características que se encuentran en ensambladores más complejos.
+
+La principal limitante es su simplicidad. Como pudimos observar, cumple con su función básica de traducir código escrito en lenguaje ensamblador a código máquina. Sin embargo, no contiene todas las características que se encuentran en ensambladores más complejos. Otra restricción puede ser su memoria, ya que la memoria donde residen las instrucciones del programas **no** es ilimitada, por lo que en programas extensos y complejos, puede que no sea posible almacenar todas las instrucciones o los datos que se deben manipular simultáneamente. Otra limitante es la de la asignación manual de las direcciones de memoria, porque aquellos sin experiencia en programar en lenguaje de ensamblador estarán propensos a cometer muchos errores en el ambito de asignación de direcciones de memoria.
+
 ## BONUS: ¿Por qué es tan importante el ensamblador?
 El ensamblador cumple una función crucial al actuar como un puente entre el lenguaje de programación de alto nivel y el código máquina que puede ejecutar directamente la computadora. Sin un ensamblador, la mayoría de los programadores se encontrarían obligados a escribir código en lenguaje máquina, lo que sería extremadamente complicado y propenso a errores. Por lo tanto, el ensamblador simplifica significativamente el proceso de desarrollo de software.
 # Referencias:
