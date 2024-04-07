@@ -19,14 +19,7 @@ El traductor de VM a Hack se divide en varias etapas que realizan diferentes tar
 ### Funcionamiento del Traductor
 
 El traductor recibe como entrada un archivo de código fuente en formato VM, que contiene programas escritos en el lenguaje de máquina virtual de Nand2tetris. El parser se encarga de leer este archivo línea por línea, identificando cada instrucción VM y sus argumentos. Luego, el code writer traduce estas instrucciones a código ensamblador Hack, generando un archivo de salida con extensión .asm que contiene el programa traducido.
-
-### Ejemplo de Uso
-
-Supongamos que tenemos un archivo de código fuente llamado "program.vm" que contiene un programa escrito en el lenguaje de máquina virtual de Nand2tetris. Para traducir este programa a código ensamblador Hack, podemos ejecutar el traductor de la siguiente manera:
-
-```
-$ VMTranslator program.vm
-```
+## Dentro de la carpeta de "Codigo Proyecto 07 - Aritmética de pila" se explicará con mas detalles el funcionamiento del traductor y con ejemplos.
 
 Esto generará un archivo de salida llamado "program.asm" que contiene el código ensamblador Hack correspondiente al programa VM.
 
