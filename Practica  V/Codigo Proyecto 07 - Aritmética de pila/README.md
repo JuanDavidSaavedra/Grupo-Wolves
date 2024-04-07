@@ -1,32 +1,38 @@
 # Cómo compilar el código
-### 1.Vaya a la carpeta src/ 
 
-### 2.Abra el terminal en la ruta actual
+1. Navegue hasta la carpeta `src/`.
 
-### 3.Ejecute los siguientes comandos 
-    "javac CodeWriter.java".
-	      "javac Parser.java
-	      "javac VMtranslator.java
-	      (es necesario tener instalado java)
+2. Abra el terminal en la ruta actual:
+   - Haga clic derecho en el directorio que contiene la carpeta `src`.
+   - Seleccione "Abrir ventana de comandos aquí" o "Abrir PowerShell aquí".
 
-### 4.Después de compilar, habrá un archivo "CodeWriter.class", un "Parser.class" y un "VMtranslator.class" en la ruta actual.
+3. Ejecute los siguientes comandos para compilar los archivos Java necesarios:
+    ```
+    javac CodeWriter.java
+    javac Parser.java
+    javac VMtranslator.java
+    ```
+   Es necesario tener Java instalado en su sistema para poder compilar los archivos.
+
+4. Después de compilar, se generarán los archivos `CodeWriter.class`, `Parser.class` y `VMtranslator.class` en la misma carpeta.
 
 # Cómo ejecutar el código
 
-### 1.El formato del comando es "java VMtranslator directory".
-
+1. El formato del comando es:
+   ```
+   java VMtranslator directory
+   ```
+   Donde `directory` es la ruta del directorio que contiene los archivos VM que se desean traducir.
 
 ### Ejemplo:
-    ### 1: java VMtranslator "C:\Users\Ipwnkidneyz\Documents\Nueva carpeta\Codigo Proyecto 07 - Aritmética de pila\src"
-	
-    ### 2.Si el argumento es un directorio, después de terminar la traducción, habrá un archivo VMtranslator.asm que se llama por el nombre del directorio y este archivo estará en este directorio.
 
+   - Para traducir todos los archivos VM en el directorio `C:\Users\Ipwnkidneyz\Documents\Nueva carpeta\Codigo Proyecto 07 - Aritmética de pila\src`, ejecute:
+     ```
+     java VMtranslator "C:\Users\Ipwnkidneyz\Documents\Nueva carpeta\Codigo Proyecto 07 - Aritmética de pila\src"
+     ```
 
-    ### Y habrá un mensaje impreso en el terminal "Archivo creado : C:\Users\Ipwnkidneyz\Documents\Nueva carpeta\Codigo Proyecto 07 - Aritmética de pila\MemoryAccess\BasicTest/archivoTraducido.asm."
-![Anotación 2024-04-07 011548](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/159449419/e652808f-f922-4cff-a24e-f78a6c389083)
-# Acerca de las excepciones: 
+     Después de completar la traducción, se creará un archivo `VMtranslator.asm` con el nombre del directorio en el mismo directorio donde se ejecutó el comando. Además, se imprimirá un mensaje en el terminal indicando la creación del archivo.
 
-## 1.todos los errores de traducción se presentarán lanzando Excepciones. 
+# Acerca de las excepciones
 
-
-
+1. Todos los errores de traducción se manejarán lanzando excepciones. Esto significa que si ocurre algún error durante el proceso de traducción, se informará al usuario mediante una excepción.
