@@ -1,41 +1,29 @@
-# Compilación del Código
+# Cómo compilar el código
+## 1.Vaya a la carpeta src/ 
 
-1. Abra la línea de comandos y navegue hasta la carpeta `src/`.
+## 2.Abra el terminal en la ruta actual
 
-2. Ejecute los siguientes comandos para compilar los archivos Java necesarios:
-    ```
-    javac CodeWriter.java
-    javac Parser.java
-    javac VMtranslator.java
-    ```
-   Es necesario tener Java instalado en su sistema para poder compilar los archivos.
+## 3.Ejecute el comando "javac CodeWriter.java".
+	      "javac Parser.java
+	      "javac VMtranslator.java
+	      (es necesario tener instalado java)
 
-3. Después de compilar, se generarán los archivos `CodeWriter.class`, `Parser.class` y `VMtranslator.class` en la misma carpeta.
+## 4.Después de compilar, habrá un archivo "CodeWriter.class", un "Parser.class" y un "VMtranslator.class" en la ruta actual.
 
-# Ejecución del Código
+# Cómo ejecutar el código
 
-1. El formato del comando para ejecutar el programa es:
-   ```
-   java VMtranslator directory
-   ```
-   Donde `directory` es la ruta del directorio que contiene los archivos VM que se desean traducir.
+## 1.El formato del comando es "java VMtranslator directory".
 
-### Ejemplos:
+## Ejemplo:
+    ### 1: java VMtranslator "C:\Users\Ipwnkidneyz\Documents\Nueva carpeta\Codigo Proyecto 07 - Aritmética de pila\src"
+	
+    ### 2.Si el argumento es un directorio, después de terminar la traducción, habrá un archivo VMtranslator.asm que se llama por el nombre del directorio y este archivo estará en este directorio.
 
-   a. Para traducir todos los archivos VM en el directorio `C:\Users\xuc\system\VMtranslator`, ejecute:
-   ```
-   java VMtranslator C:\Users\xuc\system\VMtranslator
-   ```
+    ### Y habrá un mensaje impreso en el terminal "Archivo creado : C:\Users\Ipwnkidneyz\Documents\Nueva carpeta\Codigo Proyecto 07 - Aritmética de pila\MemoryAccess\BasicTest/archivoTraducido.asm."
 
-   Después de completar la traducción, se creará un archivo `VMtranslator.asm` con el nombre del directorio en el mismo directorio donde se ejecutó el comando. Además, se imprimirá un mensaje en la línea de comandos indicando la creación del archivo.
+# Acerca de las excepciones: 
 
-   b. Para traducir un archivo específico, como `C:\Users\xuc\system\VMtranslator\StaticTest.vm`, ejecute:
-   ```
-   java VMtranslator C:\Users\xuc\system\VMtranslator\StaticTest.vm
-   ```
+## 1.todos los errores de traducción se presentarán lanzando Excepciones. 
 
-   Después de completar la traducción, se creará un archivo `StaticTest.asm` con el nombre del archivo VM en el mismo directorio que el archivo VM. Además, se imprimirá un mensaje en la línea de comandos indicando la creación del archivo.
 
-# Acerca de las Excepciones
 
-1. Todos los errores de traducción se manejarán lanzando excepciones. Esto significa que si ocurre algún error durante el proceso de traducción, se informará al usuario mediante una excepción.
