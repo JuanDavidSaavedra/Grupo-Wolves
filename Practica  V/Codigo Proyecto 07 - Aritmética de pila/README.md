@@ -4,6 +4,7 @@
 ## 2.Abra el terminal en la ruta actual
 
 ## 3.Ejecute los siguientes comandos 
+
               "javac CodeWriter.java".
 	      "javac Parser.java
 	      "javac VMtranslator.java
@@ -21,8 +22,9 @@
 	
     ### 2.Si el argumento es un directorio, después de terminar la traducción, habrá un archivo VMtranslator.asm que se llama por el nombre del directorio y este archivo estará en este directorio.
 
+
     ### Y habrá un mensaje impreso en el terminal "Archivo creado : C:\Users\Ipwnkidneyz\Documents\Nueva carpeta\Codigo Proyecto 07 - Aritmética de pila\MemoryAccess\BasicTest/archivoTraducido.asm."
-![wallpaperbetter com_1368x660](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/159449419/b19edfdc-dec3-496f-b6c3-e6e08619bed5)
+![Anotación 2024-04-07 011548](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/159449419/e652808f-f922-4cff-a24e-f78a6c389083)
 # Acerca de las excepciones: 
 
 ## 1.todos los errores de traducción se presentarán lanzando Excepciones. 
