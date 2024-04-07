@@ -4,7 +4,7 @@
 
 2. Abra el terminal en la ruta actual:
    - Haga clic derecho en el directorio que contiene la carpeta `src`.
-   - Seleccione "Abrir ventana de comandos aquí" o "Abrir PowerShell aquí".
+   - Abra el cmd con "Windows + R, y escriba 'CMD'" para la ventana de comandos o "Escriba cmd en el directorio en donde está `src`".
 
 3. Ejecute los siguientes comandos para compilar los archivos Java necesarios:
     ```
