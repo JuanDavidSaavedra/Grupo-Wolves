@@ -31,3 +31,13 @@ Esto generará un archivo de salida llamado "program.asm" que contiene el códig
 El VM Translator es una herramienta esencial en el proceso de compilación de programas escritos en lenguaje de alto nivel como el VM de Nand2tetris. Permite la traducción de estos programas a código de bajo nivel compatible con la arquitectura Hack, lo que facilita su ejecución en la plataforma Hack. Sin el VM Translator, sería necesario escribir programas directamente en código ensamblador Hack, lo cual sería mucho más laborioso y propenso a errores.
 
 
+## Teniendo en cuenta el marco de las máquinas virtuales. ¿Cuál cree que es el futuro de las máquinas virtuales?
+
+El futuro de las máquinas virtuales (VM) está marcado por una evolución hacia tecnologías más avanzadas y flexibles, como contenedores y orquestación (e.j. Docker y Kubernets respectivamente), aunque las VM seguirán siendo relevantes para trabajos que precisen de aislamiento fuerte y sistemas operativos completos. Creemos que un enfoque continuo en mejorar la eficiencia, el rendimiento y la seguridad de las VM es la clave, así como su integración con arquitecturas de nube híbrida y multi-nube. La automatización y la orquestación serán clave para la gestión escalable de infraestructura, mientras que la computación en el borde (edge computing) también podría ampliar el alcance de las VM en la entrega de servicios en entornos distribuidos.
+
+
+## ¿Cual es la principal similitud entre un contenedor y una máquina virtual?
+
+La principal similitud entre un contenedor y una máquina virtual es que ambos proporcionan entornos aislados y portátiles para ejecutar aplicaciones. Tanto los contenedores como las máquinas virtuales pueden empaquetar aplicaciones junto con todas sus dependencias en una unidad independiente, lo que facilita su implementación y ejecución en diferentes entornos de manera coherente y consistente.
+
+La diferencia radica en el nivel de abstracción: las máquinas virtuales virtualizan el hardware subyacente, incluyendo el sistema operativo, mientras que los contenedores comparten el mismo kernel del sistema operativo del host, lo que resulta en una mayor eficiencia y menor sobrecarga en comparación con las máquinas virtuales.
