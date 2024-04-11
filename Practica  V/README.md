@@ -38,6 +38,16 @@ El futuro de las máquinas virtuales (VM) está marcado por una evolución hacia
 
 ## ¿Cual es la principal similitud entre un contenedor y una máquina virtual?
 
-La principal similitud entre un contenedor y una máquina virtual es que ambos proporcionan entornos aislados y portátiles para ejecutar aplicaciones. Tanto los contenedores como las máquinas virtuales pueden empaquetar aplicaciones junto con todas sus dependencias en una unidad independiente, lo que facilita su implementación y ejecución en diferentes entornos de manera coherente y consistente.
+La principal similitud entre un contenedor y una máquina virtual es que ambos proporcionan entornos aislados y portátiles para ejecutar aplicaciones. Tanto los contenedores como las máquinas virtuales pueden empaquetar aplicaciones junto con todas sus dependencias en una unidad independiente, lno que facilita su implementación y ejecución en diferentes entornos de manera coherente y consistente.
 
 La diferencia radica en el nivel de abstracción: las máquinas virtuales virtualizan el hardware subyacente, incluyendo el sistema operativo, mientras que los contenedores comparten el mismo kernel del sistema operativo del host, lo que resulta en una mayor eficiencia y menor sobrecarga en comparación con las máquinas virtuales.
+
+## ¿Cual es la ventaja del contenedor respecto a la máquina virtual?
+
+Las principales ventajas son:
+* Eficiencia en uso en uso de recursos
+* Tiempos de inicio mas rapidos
+* Mayor portabilidad
+* Facilidad de escalabidad
+
+Mientras las máquinas virtuales deben soportar un sistema operativo por cada aplicación a desplegar en un entorno aislado, los contenedores únicamente emulan desde las librerías en adelante, lo que reduce significativamente el tiempo de despliegue de las aplicaciones al no replicar un sistema operativo completo como si lo hacen las máquinas virtuales.
