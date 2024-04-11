@@ -26,6 +26,14 @@ El traductor recibe como entrada un archivo de código fuente en formato VM, que
 
 Esto generará un archivo de salida llamado "program.asm" que contiene el código ensamblador Hack correspondiente al programa VM.
 
+# Descripción del Proyecto 08 - VM II: Programas de control
+
+El objetivo del octavo proyecto era ampliar el traductor VM básico construido en el proyecto 7 en un traductor VM a gran escala, diseñado para manejar programas de varios archivos escritos en el lenguaje VM. Esta versión del traductor VM asumía que el código fuente VM estaba libre de errores.
+
+## Implementación
+
+
+
 ## Importancia del VM Translator
 
 El VM Translator es una herramienta esencial en el proceso de compilación de programas escritos en lenguaje de alto nivel como el VM de Nand2tetris. Permite la traducción de estos programas a código de bajo nivel compatible con la arquitectura Hack, lo que facilita su ejecución en la plataforma Hack. Sin el VM Translator, sería necesario escribir programas directamente en código ensamblador Hack, lo cual sería mucho más laborioso y propenso a errores.
