@@ -47,7 +47,7 @@ Al ser una generalización del software desarrollado en el proyecto #7, sgue una
 El traductor recibe como entrada un directorio compuesto por uno o varios archivos de código fuente en formato VM, que contiene programas escritos en el lenguaje de máquina virtual de Nand2tetris. El parser se encarga de leer este archivo línea por línea, identificando cada instrucción VM y sus argumentos. Luego, el code writer traduce estas instrucciones a código ensamblador Hack, generando un archivo de salida con extensión .asm que contiene el programa traducido.
 
 ---
-### Dentro de la carpeta de "src_Java" se explicará con mas detalles el funcionamiento del traductor por medio de ejemplos.
+### Dentro de la carpeta de "Codigo Proyecto 08 - Programas de Control" se explicará con mas detalles el funcionamiento del traductor por medio de ejemplos.
 ---
 
 # Implementación Alternativa
