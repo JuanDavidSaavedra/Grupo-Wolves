@@ -95,6 +95,7 @@ Las principales ventajas son:
 * Facilidad de escalabidad
 
 Mientras las máquinas virtuales deben soportar un sistema operativo por cada aplicación a desplegar en un entorno aislado, los contenedores únicamente emulan desde las librerías en adelante, lo que reduce significativamente el tiempo de despliegue de las aplicaciones al no replicar un sistema operativo completo como si lo hacen las máquinas virtuales.
+
 ---
 # Referencias:
 - El readme fue realizado siguiendo lo propuesto en [Docs.github.com](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
