@@ -95,3 +95,10 @@ Las principales ventajas son:
 * Facilidad de escalabidad
 
 Mientras las máquinas virtuales deben soportar un sistema operativo por cada aplicación a desplegar en un entorno aislado, los contenedores únicamente emulan desde las librerías en adelante, lo que reduce significativamente el tiempo de despliegue de las aplicaciones al no replicar un sistema operativo completo como si lo hacen las máquinas virtuales.
+---
+# Referencias:
+- El readme fue realizado siguiendo lo propuesto en [Docs.github.com](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
+- Guia Implementación proyecto 7 y 8: [xctom - Github](https://github.com/xctom/Nand2Tetris/tree/master/projects/08)
+- Otra Guia Implementación proyecto 8: [Allen Wong - Github](https://github.com/AllenWrong/nand2tetris/tree/master/08)
+- Guia Implementación alternativa proyecto 8: [FlyingPig - Github](https://github.com/PKUFlyingPig/NandToTetris/tree/master/projects/08)
+
