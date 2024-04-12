@@ -58,4 +58,4 @@
    cd "U:\UIS\7mo Semestre\Arquitectura de Computadores\Practica V\Codigo Proyecto 08 - Programas de Control"
    python3.12 VMTranslator.py FunctionCalls\FibonacciElement
    ```
-Después de completar la traducción, se creará un archivo `.asm` con el nombre del directorio en el mismo directorio donde se ejecutó el comando (en este caso `FibonacciElement.asm`). Además, se imprimirá un mensaje en el terminal indicando la creación del archivo como el siguiente: `Guardado en: FunctionCalls\FibonacciElement\FibonacciElement.asm`
+Después de completar la traducción, se creará un archivo `.asm` con el nombre del directorio en el mismo directorio donde se ejecutó el comando (en este caso `FibonacciElement.asm`). Además, se imprimirá un mensaje en el terminal indicando la creación del archivo como el siguiente: "Guardado en: FunctionCalls\FibonacciElement\FibonacciElement.asm"
