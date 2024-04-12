@@ -1,6 +1,6 @@
 # Cómo compilar el código de Java
 
-1. Navegue hasta la carpeta `src_Java/`.
+1. Navegue hasta la carpeta `src_Java`.
 
 2. Abra el terminal en la ruta actual:
    - Haga clic derecho en el directorio que contiene la carpeta `src_Java`.
