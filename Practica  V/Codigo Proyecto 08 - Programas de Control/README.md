@@ -1,4 +1,4 @@
-# Cómo compilar el código
+# Cómo compilar el código de Java
 
 1. Navegue hasta la carpeta `src_Java/`.
 
@@ -18,7 +18,7 @@
 
 4. Después de compilar, se generarán los archivos `CodeWriter.class`, `CommandType.class`, `Parser.class`, `VirtualMemory.class` y `VMtranslator.class` en la misma carpeta.
 
-# Cómo ejecutar el código
+# Cómo ejecutar el código de Java
 
 1. El formato del comando es:
    ```
@@ -36,4 +36,26 @@
      Después de completar la traducción, se creará un archivo `.asm` con el nombre del directorio en el mismo directorio donde se ejecutó el comando (en este caso `StaticsTest.asm`). Además, se imprimirá un mensaje en el terminal indicando la creación del archivo.
 ---
 
-# Cómo ejecutar el código alternativo (`VMTranslator.py`)
+# Cómo ejecutar el código alternativo (VMTranslator.py)
+1. Navegue hasta la carpeta `Codigo Proyecto 08 - Programas de Control/`
+
+   Puede usar el comando cd en la consola de Python, por ejemplo:
+   ```
+   cd "Practica  V\Codigo Proyecto 08 - Programas de Control"
+   ```
+   Recuerda tener en cuenta donde te encuentras y a que directorio te diriges
+3. El formato del comando para ejecutar el programa es:
+   ```
+   python3.12 VMTranslator.py directory
+   ```
+   Donde `directory` es la ruta del directorio que contiene los archivos VM que se desean traducir.
+
+### Ejemplo:
+- Para traducir todos los archivos VM en el directorio:
+  `U:\UIS\7mo Semestre\Arquitectura de Computadores\Practica V\Codigo Proyecto 08 - Programas de Control\FunctionCalls\FibonacciElement`, se debe ejecutar:
+
+   ```
+   cd "U:\UIS\7mo Semestre\Arquitectura de Computadores\Practica V\Codigo Proyecto 08 - Programas de Control"
+   python3.12 VMTranslator.py FunctionCalls\FibonacciElement
+   ```
+Después de completar la traducción, se creará un archivo `.asm` con el nombre del directorio en el mismo directorio donde se ejecutó el comando (en este caso `FibonacciElement.asm`). Además, se imprimirá un mensaje en el terminal indicando la creación del archivo como el siguiente: `Guardado en: FunctionCalls\FibonacciElement\FibonacciElement.asm`
