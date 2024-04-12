@@ -10,11 +10,11 @@ El traductor de VM a Hack es una herramienta fundamental para la construcción d
 
 El traductor de VM a Hack se divide en varias etapas que realizan diferentes tareas:
 
-1. **Parser**: Esta etapa se encarga de leer el archivo de código fuente en formato VM y dividirlo en tokens significativos. Identifica y clasifica cada instrucción VM y extrae los argumentos necesarios para generar el código ensamblador correspondiente.
+1. `Parser`: Esta etapa se encarga de leer el archivo de código fuente en formato VM y dividirlo en tokens significativos. Identifica y clasifica cada instrucción VM y extrae los argumentos necesarios para generar el código ensamblador correspondiente.
 
-2. **Code Writer**: Una vez que el parser ha procesado las instrucciones VM, el code writer se encarga de traducirlas a código ensamblador Hack. Cada instrucción VM se traduce a una secuencia de instrucciones Hack que realiza la misma operación.
+2. `Code Writer`: Una vez que el parser ha procesado las instrucciones VM, el code writer se encarga de traducirlas a código ensamblador Hack. Cada instrucción VM se traduce a una secuencia de instrucciones Hack que realiza la misma operación.
 
-3. **Main**: Esta es la etapa principal que coordina el proceso de traducción. Lee el archivo VM de entrada, pasa las instrucciones al parser, y luego envía los resultados al code writer para generar el código ensamblador Hack.
+3. `Main`: Esta es la etapa principal que coordina el proceso de traducción. Lee el archivo VM de entrada, pasa las instrucciones al parser, y luego envía los resultados al code writer para generar el código ensamblador Hack.
 
 ### Funcionamiento del Traductor
 
@@ -34,13 +34,13 @@ El objetivo del octavo proyecto era ampliar el traductor VM básico construido e
 
 Al ser una generalización del software desarrollado en el proyecto #7, sgue una estructura bastante similar, que se puede desglosar de la siguiente manera:
 
-1. **Parser**: Esta etapa se encarga de leer el archivo de código fuente en formato VM, verifica su longitud, lo divide por comandos y para cada comando obtiene su respectivo tipo (Aritmetico, Pop, push, label, GoTo, etc) junto con sus respectivos argumentos (args1() y args2()).
+1. `Parser`: Esta etapa se encarga de leer el archivo de código fuente en formato VM, verifica su longitud, lo divide por comandos y para cada comando obtiene su respectivo tipo (Aritmetico, Pop, push, label, GoTo, etc) junto con sus respectivos argumentos (args1() y args2()).
 
-2. **Code Writer**: Una vez que el parser ha procesado las instrucciones VM, el code writer se encarga de traducirlas a código ensamblador Hack. Cada instrucción VM se traduce a una secuencia de instrucciones Hack que realiza la misma operación.
+2. `Code Writer`: Una vez que el parser ha procesado las instrucciones VM, el code writer se encarga de traducirlas a código ensamblador Hack. Cada instrucción VM se traduce a una secuencia de instrucciones Hack que realiza la misma operación.
    
-3. **Virtual Memory**: Inicializa y controla una abstracción de la memoria RAM que le permite manejar de manera eficiente direcciones asociadas a simbolos como "SP", "local", "argument", "this", "that", "pointer", entre otros.
+3. `Virtual Memory`: Inicializa y controla una abstracción de la memoria RAM que le permite manejar de manera eficiente direcciones asociadas a simbolos como "SP", "local", "argument", "this", "that", "pointer", entre otros.
 
-5. **VMTranslator**: Esta es la etapa principal que coordina el proceso de traducción. Lee el o los archivos VM de entrada, pasa las instrucciones al parser y luego envía los resultados al code writer para generar el código ensamblador Hack.
+5. `VMTranslator`: Esta es la etapa principal que coordina el proceso de traducción. Lee el o los archivos VM de entrada, pasa las instrucciones al parser y luego envía los resultados al code writer para generar el código ensamblador Hack.
 
 ### Funcionamiento del Traductor
 
@@ -52,10 +52,24 @@ El traductor recibe como entrada un directorio compuesto por uno o varios archiv
 
 # Implementación Alternativa
 
-Por limitaciones de tiempo, no se lograron corregir ciertos errores en la traducción respecto a los programas "StaticsTest.asm" y "FibonacciElement.asm", sin embargo, mirando en el estado del arte de Nand2Tetris se encontró una implementación en Python del Traductor en el que esos 2 programas especificos si funcionaban (aunque habían otros con errores); por lo que al combinar el uso de ambos algoritmos, se logró traducir de manera eficaz los 6 programas del proyecto #8.
+Por limitaciones de tiempo, no se lograron corregir ciertos errores en la traducción respecto a los programas `StaticsTest.asm` y `FibonacciElement.asm`, sin embargo, mirando en el estado del arte de Nand2Tetris se encontró una implementación en Python del Traductor en el que esos 2 programas especificos si funcionaban (aunque habían otros con errores); por lo que al combinar el uso de ambos algoritmos, se logró traducir de manera eficaz los 6 programas del proyecto #8.
 
 ## Descripción implmentación Alternativa
 
+La implementación consta de dos clases principales, la Clase `VMTranslator` que maneja la traducción de uno o varios archivos .vm a su respectivo codigo ensamblador; basicamente recibe un directorio, lee los diferentes archivos .vm, los traduce y los condensa en un solo archivo .asm. Un ejemplo en el que se usa esta clase sería a la hora de traducir y generar el archivo FibonnaciElement.asm ya que es el resultado de traducir y juntar los archivos Main.vm y los archivos Sys.vm.
+
+La otra clase se denomina `SingleVMTranslator` la cual como su nombre lo indica se encarga de traducir un solo archivoVM a su respectivo equivalente en .asm; un ejemplo del uso de esta clase sería a la hora de traducir la SimpleFunction.vm ya que todo su codigo esta contenido en ese archivo especifico.
+
+### Funcionamiento
+1. En primer lugar se lee el directorio o la ruta al archivo o los archivos `.vm`
+2. Internamente el programa decide si es un directorio o un solo documento y empieza la traducción con la clase correspondiente.
+3. Si es un directorio traduce por medio de `SingleVMTranslator` cada uno de los archivos `.vm` que este contenga y los almacena para finalmente juntarlos en un solo `.asm`
+4. El `archivo.vm` a traducir se divide en lineas y/o comandos
+5. Se eliminan los comentarios y/o los espacios en blanco para cada linea.
+6. Se le asigna una categoria a la respectiva linea (Aritmetica, Push, Pop, Label, GoTo, etc).
+7. Cada categoría por medio de diccionarios tiene su respectiva traducción predefinida a `.asm` y por medio de la función `parse` se llama a la respectiva traducción dependiendo de la categoría previamente definida. 
+8. Finalmente se guarda el `archivo.asm` resultante en el mismo directorio donde se leyeron los .vm
+---
 ## Importancia del VM Translator
 
 El VM Translator es una herramienta esencial en el proceso de compilación de programas escritos en lenguaje de alto nivel como el VM de Nand2tetris. Permite la traducción de estos programas a código de bajo nivel compatible con la arquitectura Hack, lo que facilita su ejecución en la plataforma Hack. Sin el VM Translator, sería necesario escribir programas directamente en código ensamblador Hack, lo cual sería mucho más laborioso y propenso a errores.
