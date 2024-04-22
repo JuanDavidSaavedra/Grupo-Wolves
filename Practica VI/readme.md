@@ -16,4 +16,4 @@ En nuestro caso se decidió adaptar una version inicial del clasico juego **"Sna
 ---
 # Referencias:
 - El readme fue realizado siguiendo lo propuesto en [Docs.github.com](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
-- Guia Implementación proyecto 9: [Grupo Aval - Github]([https://github.com/xctom/Nand2Tetris/tree/master/projects/08](https://github.com/JuanSepu18/Grupo-Aval/tree/main/Practica_6))
+- Guia Implementación proyecto 9: [Grupo Aval - Github](https://github.com/JuanSepu18/Grupo-Aval/tree/main/Practica_6)
