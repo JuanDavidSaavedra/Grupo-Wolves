@@ -113,10 +113,7 @@ $ ruby hello.rb
 
 Debería aparecer la cadena `"Hola Mundo"` en la salida de la consola. Si lo deseas, puedes modificar el código fuente y volver a ejecutarlo.
 
----
 
-
----
 
 ## Ejemplo de lenguaje compilado: 
 
