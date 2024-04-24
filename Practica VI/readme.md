@@ -92,19 +92,28 @@ C, C++ y Go son lenguajes de programación compilados. JavaScript, Python y Ruby
 La distinción principal entre un lenguaje compilado y uno interpretado radica en el proceso necesario antes de la ejecución. En un lenguaje compilado, como C o Java, se requiere un paso previo denominado compilación. Durante este proceso, el código escrito se traduce completamente a lenguaje de máquina, que es el código entendido directamente por la computadora. Por otro lado, en un lenguaje interpretado, como Python o JavaScript, el código se traduce a medida que se ejecuta, sin necesidad de una compilación anticipada.
 
 Por ejemplo, en el caso del lenguaje C, es necesario compilar el código antes de ejecutarlo. En cambio, con Python, el código puede ejecutarse directamente sin necesidad de una compilación previa.
-### Ejemplo de lenguaje interpretado
-Ejecutando un archivo Ruby
-Ruby es un lenguaje interpretado, lo que significa que se puede crear un archivo llamado hello.rb con el siguiente código, o cualquier otro código válido en Ruby (a esto se le conoce como el código fuente):
 
-ruby
-Copy code
+
+---
+
+### Ejemplo de lenguaje interpretado: 
+
+Ruby es un lenguaje interpretado, lo que significa que se puede crear un archivo llamado `hello.rb` con el siguiente código, o cualquier otro código válido en Ruby (a esto se le conoce como el código fuente):
+
+```ruby
 puts "Hola Mundo"
-Para ejecutarlo, se puede ingresar el siguiente comando en la consola:
+```
 
-bash
-Copy code
+Para ejecutarlo, simplemente ingresa el siguiente comando en la consola:
+
+```bash
 $ ruby hello.rb
-Debería aparecer la cadena "Hola Mundo" en la salida de la consola. Si se desea, se puede modificar el código fuente y volver a ejecutarlo.
+```
+
+Debería aparecer la cadena `"Hola Mundo"` en la salida de la consola. Si lo deseas, puedes modificar el código fuente y volver a ejecutarlo.
+
+---
+
 # Referencias:
 - El readme fue realizado siguiendo lo propuesto en [Docs.github.com](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
 - Guia Implementación proyecto 9: [Grupo Aval - Github](https://github.com/JuanSepu18/Grupo-Aval/tree/main/Practica_6)
