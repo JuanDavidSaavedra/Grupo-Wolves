@@ -86,19 +86,12 @@ Son sistemas formales que estan diseñados para expresar procesos de computació
 ### Intérpretes: 
 Estos son programas informáticos que leen y ejecutan instrucciones escritas en un lenguaje de programación de alto nivel. Actúan como una capa intermedia entre el código fuente y la máquina, interpretando las instrucciones y ejecutándolas directamente en el sistema operativo o en una máquina virtual. Los intérpretes son útiles para la depuración y la experimentación rápida, ya que permiten ejecutar y probar el código de inmediato sin necesidad de compilar.
 
-## Otros lenguajes interpretados
-### JavaScript: 
-Ampliamente utilizado para el desarrollo web, los navegadores web interpretan directamente el código JavaScript.
-### Ruby:
-Un lenguaje de programación dinámico utilizado para desarrollo web, scripting y más.
-### Perl:
-Un lenguaje de programación versátil utilizado para tareas de administración del sistema, procesamiento de texto, desarrollo web, entre otros.
-### PHP:
-Un lenguaje de programación diseñado específicamente para el desarrollo web del lado del servidor.
-### R:
-Utilizado principalmente para computación estadística y gráficos.
-### Shell scripting tales como Bash, PowerShell: 
-Se utilizan para automatizar tareas del sistema operativo.
+## Otros lenguajes interpretados:
+### JavaScript: Ampliamente utilizado para el desarrollo web, los navegadores web interpretan directamente el código JavaScript.
+### Ruby:Un lenguaje de programación dinámico utilizado para desarrollo web, scripting y más.
+### Perl:Un lenguaje de programación versátil utilizado para tareas de administración del sistema, procesamiento de texto, desarrollo web, entre otros.
+### PHP:Un lenguaje de programación diseñado específicamente para el desarrollo web del lado del servidor.
+
 
 ---
 # Referencias:
