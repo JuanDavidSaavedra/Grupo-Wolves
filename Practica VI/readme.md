@@ -83,6 +83,7 @@ Los lenguajes de alto nivel están diseñados para ser independientes de la máq
 ## ¿Qué lenguajes interpretadores ademas del Python existen?
 ### Lenguajes de Programación: 
 Son sistemas formales que estan diseñados para expresar procesos de computación de manera clara y concisa. Ejemplos incluyen Python, Java, C++, entre muchos otros. Estos lenguajes requieren un compilador o un intérprete para ser ejecutados. Los compiladores traducen el código fuente a un lenguaje de bajo nivel (como el lenguaje de máquina) antes de la ejecución, mientras que los intérpretes traducen y ejecutan el código línea por línea en tiempo real.
+
 ![image](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/159449419/189b9c7e-1ef0-40db-b2ec-55ca644c0fa1)
 
 ### Intérpretes: 
@@ -113,6 +114,40 @@ $ ruby hello.rb
 Debería aparecer la cadena `"Hola Mundo"` en la salida de la consola. Si lo deseas, puedes modificar el código fuente y volver a ejecutarlo.
 
 ---
+
+
+---
+
+## Ejemplo de lenguaje compilado: 
+
+Un lenguaje compilado requiere un paso adicional. Si dispones de un compilador de C como gcc, puedes crear un archivo llamado `hello.c` con el siguiente contenido, o cualquier otro código válido en C:
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    printf("Hola Mundo");
+    return 0;
+}
+```
+
+Antes de ejecutarlo, debes compilarlo con el siguiente comando:
+
+```bash
+$ gcc hello.c -o hello
+```
+
+Esto creará un archivo llamado `hello` (sin extensión) con el código de máquina (llamado el ejecutable) que puedes ejecutar en la consola con el siguiente comando:
+
+```bash
+$ ./hello
+```
+
+Debería aparecer la cadena de texto `"Hola Mundo"` en la salida de la consola. Si necesitas cambiar el código fuente, debes volver a compilarlo y ejecutarlo nuevamente.
+
+---
+
 
 # Referencias:
 - El readme fue realizado siguiendo lo propuesto en [Docs.github.com](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
