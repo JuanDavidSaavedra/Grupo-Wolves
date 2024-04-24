@@ -83,20 +83,28 @@ Los lenguajes de alto nivel están diseñados para ser independientes de la máq
 ## ¿Qué lenguajes interpretadores ademas del Python existen?
 ### Lenguajes de Programación: 
 Son sistemas formales que estan diseñados para expresar procesos de computación de manera clara y concisa. Ejemplos incluyen Python, Java, C++, entre muchos otros. Estos lenguajes requieren un compilador o un intérprete para ser ejecutados. Los compiladores traducen el código fuente a un lenguaje de bajo nivel (como el lenguaje de máquina) antes de la ejecución, mientras que los intérpretes traducen y ejecutan el código línea por línea en tiempo real.
+![image](https://github.com/JuanDavidSaavedra/WolfPack-Devs/assets/159449419/189b9c7e-1ef0-40db-b2ec-55ca644c0fa1)
+
 ### Intérpretes: 
 Estos son programas informáticos que leen y ejecutan instrucciones escritas en un lenguaje de programación de alto nivel. Actúan como una capa intermedia entre el código fuente y la máquina, interpretando las instrucciones y ejecutándolas directamente en el sistema operativo o en una máquina virtual. Los intérpretes son útiles para la depuración y la experimentación rápida, ya que permiten ejecutar y probar el código de inmediato sin necesidad de compilar.
+C, C++ y Go son lenguajes de programación compilados. JavaScript, Python y Ruby son lenguajes interpretados.
 
-## Otros lenguajes interpretados:
-### JavaScript:
-Ampliamente utilizado para el desarrollo web, los navegadores web interpretan directamente el código JavaScript.
-### Ruby:
-Un lenguaje de programación dinámico utilizado para desarrollo web, scripting y más.
-### Perl:
-Un lenguaje de programación versátil utilizado para tareas de administración del sistema, procesamiento de texto, desarrollo web, entre otros.
-### PHP:
-Un lenguaje de programación diseñado específicamente para el desarrollo web del lado del servidor.
+La distinción principal entre un lenguaje compilado y uno interpretado radica en el proceso necesario antes de la ejecución. En un lenguaje compilado, como C o Java, se requiere un paso previo denominado compilación. Durante este proceso, el código escrito se traduce completamente a lenguaje de máquina, que es el código entendido directamente por la computadora. Por otro lado, en un lenguaje interpretado, como Python o JavaScript, el código se traduce a medida que se ejecuta, sin necesidad de una compilación anticipada.
 
----
+Por ejemplo, en el caso del lenguaje C, es necesario compilar el código antes de ejecutarlo. En cambio, con Python, el código puede ejecutarse directamente sin necesidad de una compilación previa.
+### Ejemplo de lenguaje interpretado
+Ejecutando un archivo Ruby
+Ruby es un lenguaje interpretado, lo que significa que se puede crear un archivo llamado hello.rb con el siguiente código, o cualquier otro código válido en Ruby (a esto se le conoce como el código fuente):
+
+ruby
+Copy code
+puts "Hola Mundo"
+Para ejecutarlo, se puede ingresar el siguiente comando en la consola:
+
+bash
+Copy code
+$ ruby hello.rb
+Debería aparecer la cadena "Hola Mundo" en la salida de la consola. Si se desea, se puede modificar el código fuente y volver a ejecutarlo.
 # Referencias:
 - El readme fue realizado siguiendo lo propuesto en [Docs.github.com](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
 - Guia Implementación proyecto 9: [Grupo Aval - Github](https://github.com/JuanSepu18/Grupo-Aval/tree/main/Practica_6)
