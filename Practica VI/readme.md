@@ -82,9 +82,9 @@ Los lenguajes de alto nivel están diseñados para ser independientes de la máq
 
 ## ¿Qué lenguajes interpretadores ademas del Python existen?
 ### Lenguajes de Programación: 
-Son sistemas formales diseñados para expresar procesos de computación de manera clara y concisa. Ejemplos incluyen Python, Java, C++, entre muchos otros. Estos lenguajes requieren un compilador o un intérprete para ser ejecutados. Los compiladores traducen el código fuente a un lenguaje de bajo nivel (como el lenguaje de máquina) antes de la ejecución, mientras que los intérpretes traducen y ejecutan el código línea por línea en tiempo real.
+Son sistemas formales que estan diseñados para expresar procesos de computación de manera clara y concisa. Ejemplos incluyen Python, Java, C++, entre muchos otros. Estos lenguajes requieren un compilador o un intérprete para ser ejecutados. Los compiladores traducen el código fuente a un lenguaje de bajo nivel (como el lenguaje de máquina) antes de la ejecución, mientras que los intérpretes traducen y ejecutan el código línea por línea en tiempo real.
 ### Intérpretes: 
-Son programas informáticos que leen y ejecutan instrucciones escritas en un lenguaje de programación de alto nivel. Actúan como una capa intermedia entre el código fuente y la máquina, interpretando las instrucciones y ejecutándolas directamente en el sistema operativo o en una máquina virtual. Los intérpretes son útiles para la depuración y la experimentación rápida, ya que permiten ejecutar y probar el código de inmediato sin necesidad de compilar.
+Estos son programas informáticos que leen y ejecutan instrucciones escritas en un lenguaje de programación de alto nivel. Actúan como una capa intermedia entre el código fuente y la máquina, interpretando las instrucciones y ejecutándolas directamente en el sistema operativo o en una máquina virtual. Los intérpretes son útiles para la depuración y la experimentación rápida, ya que permiten ejecutar y probar el código de inmediato sin necesidad de compilar.
 
 ## Otros lenguajes interpretados
 ### JavaScript: 
