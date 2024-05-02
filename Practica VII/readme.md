@@ -11,3 +11,6 @@ https://youtu.be/N1tzqukpQKM
 
 * Juan Diego Roa Porras - 2210086
 https://youtu.be/yKK0gytavFQ 
+
+* Diego Fabián Sepúlveda Durán - 2210063
+https://youtu.be/hdmzMWAhiYg
