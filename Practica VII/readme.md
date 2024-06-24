@@ -1,5 +1,5 @@
 # Descripción de la práctica de laboratorio 7
-La práctica de laboratorio No. 7 corresponde a la grabación de un video de forma individual para cada integrante del equipo, respondiendo preguntas relacionadas con el codigo de la ACM respecto a la etica en la profesión de Ingeniería de sistemas y computación e informatica.
+La práctica de laboratorio No. 7 corresponde a la grabación de un video de forma individual para cada integrante del equipo, respondiendo preguntas relacionadas con el código de la ACM respecto a la ética en la profesión de Ingeniería de sistemas y computación e informática.
 
 Link de los videos de la Practica VII
 
